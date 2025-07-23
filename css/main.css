@@ -1,0 +1,42 @@
+:root {
+  --primary: #166534;
+  --primary-dark: #14532d;
+  --bg: #f5f7fa;
+  --text: #222;
+  --accent: #fff;
+  --radius: 24px;
+  --shadow: 0 4px 24px rgba(22, 101, 52, 0.10);
+  --nav-mobile-height: 70px;
+  --nav-active: #166534;
+  --nav-inactive: #222;
+  --nav-label-bg: #fff;
+}
+
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  padding-top: 80px;
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+
+}
+
+@media (max-width: 768px) {
+  body {
+    
+    padding-top: 55px;
+  }
+}

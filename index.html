@@ -1,0 +1,861 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> فہیم احمد</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/navbar.css">
+  <link rel="stylesheet" href="css/hero.css">
+  <link rel="stylesheet" href="css/about.css">
+  <link rel="stylesheet" href="css/projects.css">
+  <link rel="stylesheet" href="css/contact.css">
+  <link rel="stylesheet" href="css/skills.css">
+  <link rel="stylesheet" href="css/devpost.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/chatbot.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="icon" type="image/x-icon" href="/images/favicon.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+<!-- DESKTOP NAVIGATION -->
+<header class="main-header">
+  <div class="header__logo">فہیم احمد</div>
+  <ul>
+    <li><a href="#home" class="active">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <a href="images/Fahim_Ahmad CV_Resume.pdf" class="header__cta">CV</a>
+</header>
+<div class="mobile-header">
+  <div class="mobile-header__logo">فہیم احمد</div>
+</div>
+<!-- MOBILE NAVBAR -->
+<nav class="mobile-nav">
+  <a href="#home" class="mobile-nav__item active">
+    <span class="material-icons">home</span>
+    <span class="mobile-nav__label">Home</span>
+  </a>
+  <a href="#about" class="mobile-nav__item">
+    <span class="material-icons">person_outline</span>
+    <span class="mobile-nav__label">About</span>
+  </a>
+  <a href="#projects" class="mobile-nav__item">
+    <span class="material-icons">dashboard</span>
+    <span class="mobile-nav__label">Work</span>
+  </a>
+  <a href="#skills" class="mobile-nav__item">
+    <span class="material-icons">construction</span>
+    <span class="mobile-nav__label">Skills</span>
+  </a>
+  <a href="#contact" class="mobile-nav__item">
+    <span class="material-icons">mail_outline</span>
+    <span class="mobile-nav__label">Contact</span>
+  </a>
+</nav>
+
+  <!-- HERO SECTION -->
+  <section class="hero" id="home">
+    <div class="hero__container">
+      <div class="hero__content">
+        <h1 class="hero__title">
+          Hi, I'm <span class="hero__name">Fahim Ahmad</span>
+        </h1>
+        <h2 class="hero__subtitle">
+          I'm a <span class="hero__typing">Front-end developer</span>
+        </h2>
+        <p class="hero__desc">
+          I specialize in developing high-performance, accessible, and responsive web applications that deliver
+          intuitive and engaging user experiences.
+        </p>
+        <div class="hero__actions">
+          <a href="#projects" class="hero__cta">
+            View My Work
+            <svg xmlns="http://www.w3.org/2000/svg" class="hero__cta-icon" viewBox="0 0 20 20" fill="currentColor">
+              <path fill-rule="evenodd"
+                d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                clip-rule="evenodd" />
+            </svg>
+          </a>
+        </div>
+        <div class="hero__socials">
+          <a href="https://github.com/fahimmoon" class="social-link" aria-label="GitHub" title="GitHub" target="_blank"
+            rel="noopener noreferrer">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub">
+          </a>
+
+          <a href="https://www.linkedin.com/in/fahim-ahmad-589a81246" class="social-link" aria-label="LinkedIn"
+            title="LinkedIn" target="_blank" rel="noopener noreferrer">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-plain.svg" alt="LinkedIn">
+          </a>
+        </div>
+      </div>
+      <div class="hero__visuals">
+        <div class="hero__blob">
+          <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" width="100%" id="blobSvg">
+            <path
+              d="M445,296.5Q432.5,343,393,375.5Q353.5,408,301.5,432.5Q250,457,196.5,441Q143,425,111.5,385.5Q80,346,56,298Q32,250,56.5,200.5Q81,151,114.5,118.5Q148,86,200.5,65.5Q253,45,302,57Q351,69,392,104.5Q433,140,446.5,195Q460,250,445,296.5Z"
+              fill="#d1fae5"></path>
+          </svg>
+        </div>
+        <img src="/images/hero-image.png" class="hero__image" alt="3D Character Illustration">
+
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+          class="hero__tech-icon hero__tech-icon--react" alt="React">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+          class="hero__tech-icon hero__tech-icon--js" alt="JavaScript">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+          class="hero__tech-icon hero__tech-icon--node" alt="Node.js">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
+          class="hero__tech-icon hero__tech-icon--figma" alt="Figma">
+      </div>
+    </div>
+    <div class="hero__aurora"></div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+
+  <section class="about" id="about">
+    <div class="about__container">
+      <!-- Left Column: Text and Tabs -->
+      <div class="about__content reveal">
+        <h2 class="about__title">About Me</h2>
+        <p class="about__text">
+          I’m a passionate and results-driven web developer who engineers modern, responsive web applications that excel
+          in performance and accessibility. My goal is to turn complex problems into beautiful, functional, and
+          user-centered digital experiences that are a delight to use.
+        </p>
+        <div class="about__tabs">
+          <button class="tab-btn active" data-tab="skills-panel">Skills</button>
+          <button class="tab-btn" data-tab="edu-panel">Education</button>
+          <button class="tab-btn" data-tab="certs-panel">Certificates</button>
+        </div>
+
+        <div class="about__panels">
+          <div class="tab-panel active" id="skills-panel">
+            <ul>
+              <li>React, Next.js, & Node.js</li>
+              <li>Figma, User-Centered Design, Wireframing</li>
+              <li>JavaScript, Bootstrap, HTML5, CSS3</li>
+              <li>Responsive & Accessible Web Development</li>
+            </ul>
+          </div>
+          <div class="tab-panel" id="edu-panel">
+            <ul>
+              <li>Bachelor of Science in Computer Science<br><small>SZABIST, Karachi Campus (Expected 2026)</small></li>
+              <li>Intermediate in Computer Science (ICS)<br><small>Cadet College Jhang (2022)</small></li>
+            </ul>
+          </div>
+          <div class="tab-panel" id="certs-panel">
+            <ul>
+              <li>IBM Full Stack Software Developer</li>
+              <li>Responsive Web Design (Kado)</li>
+              <li>JS Algorithms & Data Structures (Kado)</li>
+              <li>Meta Front-End Developer</li>
+              <li>AWS For Front-End Engineers</li>
+              <li>HTML, CSS & Web Fundamentals</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+  
+      <div class="about__visuals reveal">
+        <div class="about__illustration">
+          <img src="/images/about-image.svg" alt="Web Developer Illustration">
+        </div>
+        <h3 class="about__tools-title">My Favorite Tools</h3>
+        <div class="about__tools-grid">
+  
+          <div class="tool-card">
+            <div class="tool-card__icon-wrapper"><img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5"></div>
+            <span class="tool-card__name">HTML5</span>
+          </div>
+          <div class="tool-card">
+            <div class="tool-card__icon-wrapper"><img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3"></div>
+            <span class="tool-card__name">CSS3</span>
+          </div>
+          <div class="tool-card">
+            <div class="tool-card__icon-wrapper"><img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                alt="JavaScript"></div>
+            <span class="tool-card__name">JavaScript</span>
+          </div>
+          <div class="tool-card">
+            <div class="tool-card__icon-wrapper"><img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React"></div>
+            <span class="tool-card__name">React</span>
+          </div>
+          <div class="tool-card">
+            <div class="tool-card__icon-wrapper"><img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js"></div>
+            <span class="tool-card__name">Node.js</span>
+          </div>
+          <div class="tool-card">
+            <div class="tool-card__icon-wrapper"><img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git"></div>
+            <span class="tool-card__name">Git</span>
+          </div>
+          <div class="tool-card">
+            <div class="tool-card__icon-wrapper"><img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="Figma"></div>
+            <span class="tool-card__name">Figma</span>
+          </div>
+          <div class="tool-card">
+            <div class="tool-card__icon-wrapper"><img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB">
+            </div>
+            <span class="tool-card__name">MongoDB</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--  PROJECTS SECTION  -->
+
+  <section class="work" id="projects">
+    <div class="container">
+      <h2 class="work__title">My Creative Portfolio</h2>
+      <p class="work__subtitle">A selection of my work, showcasing the technologies and solutions involved.</p>
+
+      <div class="work__filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="web">Web App</button>
+      </div>
+
+      <div class="work__grid">
+
+        <div class="work-card" data-category="web">
+          <div class="work-card__img"><img
+              src="https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?q=80&w=1974" alt="Airnova E-commerce">
+          </div>
+          <div class="work-card__content">
+            <h3 class="work-card__title">Airnova</h3>
+            <p class="work-card__desc">A modern e-commerce platform for premium footwear and sportswear, featuring a
+              product catalog with filtering, search, and a shopping cart.</p>
+            <div class="work-card__tech">
+              <h4>Technologies Used:</h4>
+              <ul>
+                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React"
+                    title="React"></li>
+                <li data-tooltip="Tailwind CSS">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
+                    alt="Tailwind CSS">
+                </li>
+              </ul>
+            </div>
+            <div class="work-card__links">
+              <a href="https://airnova-ebmw7zwy1-fahim-ahmads-projects-60bba0d6.vercel.app/"
+                class="work-link work-link--demo" target="_blank" rel="noopener noreferrer">Live Demo <i
+                  class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              <a href="https://github.com/fahimmoon/airnova" class="work-link work-link--code" target="_blank"
+                rel="noopener noreferrer">View Code <i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="work-card" data-category="web">
+          <div class="work-card__img">
+            <img src="https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?q=80&w=2070"
+              alt="Landing Nest Page Generator">
+          </div>
+          <div class="work-card__content">
+            <h3 class="work-card__title">Landing Nest</h3>
+            <p class="work-card__desc">A modern landing page generator built with a focus on fast performance, easy
+              customization, security best practices, and SEO optimization.</p>
+            <div class="work-card__tech">
+              <h4>Technologies Used:</h4>
+              <ul>
+                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React"
+                    title="React"></li>
+                <li data-tooltip="Tailwind CSS">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
+                    alt="Tailwind CSS">
+                </li>
+                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/framermotion/framermotion-original.svg"
+                    alt="Framer Motion" title="Framer Motion"></li>
+              </ul>
+            </div>
+            <div class="work-card__links">
+              <a href="#" class="work-link work-link--demo" target="_blank" rel="noopener noreferrer">Live Demo <i
+                  class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              <a href="https://github.com/fahimmoon/landin-nest" class="work-link work-link--code" target="_blank"
+                rel="noopener noreferrer">View Code <i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="work-card" data-category="web">
+          <div class="work-card__img">
+            <img src="/images/project/Webstore.png" alt="Webstore E-commerce">
+          </div>
+          <div class="work-card__content">
+            <h3 class="work-card__title">Webstore</h3>
+            <p class="work-card__desc">A modern e-commerce platform featuring responsive navigation, category-based
+              browsing, search functionality, and a shopping cart.</p>
+            <div class="work-card__tech">
+              <h4>Technologies Used:</h4>
+              <ul>
+                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React"
+                    title="React"></li>
+                <li data-tooltip="Tailwind CSS">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
+                    alt="Tailwind CSS">
+                </li>
+              </ul>
+            </div>
+            <div class="work-card__links">
+              <a href="https://fahimmoon.github.io/web-store/" class="work-link work-link--demo" target="_blank"
+                rel="noopener noreferrer">Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              <a href="https://github.com/fahimmoon/web-store" class="work-link work-link--code" target="_blank"
+                rel="noopener noreferrer">View Code <i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="work-card" data-category="web">
+          <div class="work-card__img">
+            <img src="/images/project/TechSkillSwap.png" alt="TechSkillSwap">
+          </div>
+          <div class="work-card__content">
+            <h3 class="work-card__title">TechSkillSwap</h3>
+            <p class="work-card__desc">A community platform designed to connect individuals and facilitate the exchange
+              and learning of new technology skills.</p>
+            <div class="work-card__tech">
+              <h4>Technologies Used:</h4>
+              <ul>
+                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React"
+                    title="React"></li>
+                <li data-tooltip="Tailwind CSS">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
+                    alt="Tailwind CSS">
+                </li>
+              </ul>
+            </div>
+            <div class="work-card__links">
+              <a href="https://fahimmoon.github.io/techskillswap/" class="work-link work-link--demo" target="_blank"
+                rel="noopener noreferrer">Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              <a href="https://github.com/fahimmoon/techskillswap" class="work-link work-link--code" target="_blank"
+                rel="noopener noreferrer">View Code <i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="work-card" data-category="web">
+          <div class="work-card__img">
+            <img src="/images/project/CineFlix.png" alt="CineFlix">
+          </div>
+          <div class="work-card__content">
+            <h3 class="work-card__title">CineFlix</h3>
+            <p class="work-card__desc">A sleek and modern user interface for a movie and streaming platform, built to be
+              fast, responsive, and visually engaging.</p>
+            <div class="work-card__tech">
+              <h4>Technologies Used:</h4>
+              <ul>
+                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React"
+                    title="React"></li>
+                <li data-tooltip="Tailwind CSS">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
+                    alt="Tailwind CSS">
+                </li>
+              </ul>
+            </div>
+            <div class="work-card__links">
+              <a href="https://fahimmoon.github.io/CineFlix/" class="work-link work-link--demo" target="_blank"
+                rel="noopener noreferrer">Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              <a href="https://github.com/fahimmoon/CineFlix" class="work-link work-link--code" target="_blank"
+                rel="noopener noreferrer">View Code <i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="work-card" data-category="web">
+          <div class="work-card__img">
+            <img src="/images/project/EventNova.png" alt="EventNova">
+          </div>
+          <div class="work-card__content">
+            <h3 class="work-card__title">EventNova</h3>
+            <p class="work-card__desc">A sleek and modern event landing page designed to captivate visitors and boost
+              registrations for any type of event, from tech conferences to music fests.</p>
+            <div class="work-card__tech">
+              <h4>Technologies Used:</h4>
+              <ul>
+                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React"
+                    title="React"></li>
+                <li data-tooltip="Tailwind CSS">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
+                    alt="Tailwind CSS">
+                </li>
+              </ul>
+            </div>
+            <div class="work-card__links">
+              <a href="https://fahimmoon.github.io/eventnova/" class="work-link work-link--demo" target="_blank"
+                rel="noopener noreferrer">Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              <a href="https://github.com/fahimmoon/eventnova" class="work-link work-link--code" target="_blank"
+                rel="noopener noreferrer">View Code <i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="work__footer">
+        <button id="see-more-btn" class="see-more-btn">
+          See More <i class="fa-solid fa-arrow-down"></i>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- DEVPOST PROJECTS SECTION -->
+  <section id="devpost-projects">
+    <div class="container">
+      <h2 class="devpost-title">Featured Hackathon Projects</h2>
+      <p class="devpost-subtitle">Highlights from my competitive programming and hackathon journey on Devpost.</p>
+
+      <div class="devpost-grid">
+
+
+        <div class="dp-card reveal">
+          <header class="dp-card-header">
+            <img src="/images/Devpost/EcoSer.png" class="dp-card-banner" alt="EcoSer Project">
+            <img src="/images/Devpost/devpost.jpeg" class="dp-card-logo" alt="Devpost Logo">
+          </header>
+          <div class="dp-card-body">
+            <p class="dp-project-award"><i class="fa-solid fa-leaf"></i> Sustainability Focus</p>
+            <h3 class="dp-project-title">EcoSer</h3>
+            <p class="dp-project-event">Community Hackathon 2023</p>
+            <p class="dp-project-description">A sustainable living community platform that connects eco-conscious
+              individuals and promotes environmental sustainability through shared resources.</p>
+            <div class="dp-tech-stack">
+              <h4>Technologies Used:</h4>
+              <ul>
+                <li data-tooltip="React"><img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React"></li>
+                <li data-tooltip="Node.js"><img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js">
+                </li>
+              </ul>
+            </div>
+          </div>
+          <footer class="dp-card-footer">
+            <a href="https://fahimmoon.github.io/eco/" class="dp-action-link devpost" target="_blank"
+              rel="noopener noreferrer" title="View Live Demo">View Demo</a>
+            <a href="https://github.com/fahimmoon/eco" class="dp-action-link code" target="_blank"
+              rel="noopener noreferrer" title="View Source Code">View Code</a>
+          </footer>
+        </div>
+
+
+        <div class="dp-card reveal">
+          <header class="dp-card-header">
+            <img src="/images/Devpost/Healthcare_Platform.png" class="dp-card-banner" alt="Healthcare Project">
+            <img src="/images/Devpost/devpost.jpeg" class="dp-card-logo" alt="Devpost Logo">
+          </header>
+          <div class="dp-card-body">
+            <p class="dp-project-award"><i class="fa-solid fa-briefcase-medical"></i> Health Tech</p>
+            <h3 class="dp-project-title">Healthcare Platform</h3>
+            <p class="dp-project-event">Health Innovation Challenge 2024</p>
+            <p class="dp-project-description">An easy-to-use platform for accessing healthcare services, featuring
+              complex forms, UI components, and real-time data visualization for health insights.</p>
+            <div class="dp-tech-stack">
+              <h4>Technologies Used:</h4>
+              <ul>
+                <li data-tooltip="React"><img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React"></li>
+                <li data-tooltip="Tailwind CSS">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
+                    alt="Tailwind CSS">
+                </li>
+            </div>
+          </div>
+          <footer class="dp-card-footer">
+            <a href="https://fahimmoon.github.io/healthcare/index.html" class="dp-action-link devpost" target="_blank"
+              rel="noopener noreferrer" title="View Live Demo">View Demo</a>
+            <a href="https://github.com/fahimmoon/healthcare" class="dp-action-link code" target="_blank"
+              rel="noopener noreferrer" title="View Source Code">View Code</a>
+          </footer>
+        </div>
+
+
+        <div class="dp-card reveal">
+          <header class="dp-card-header">
+            <img src="/images/Devpost/Weather.png" class="dp-card-banner" alt="WeatherNow App">
+            <img src="/images/Devpost/devpost.jpeg" class="dp-card-logo" alt="Devpost Logo">
+          </header>
+          <div class="dp-card-body">
+            <p class="dp-project-award"><i class="fa-solid fa-cloud-sun"></i> Utility App</p>
+            <h3 class="dp-project-title">WeatherNow App</h3>
+            <p class="dp-project-event">API Masters Hackathon 2023</p>
+            <p class="dp-project-description">A dynamic weather application that provides real-time updates based on
+              city search. Features a UI that changes dynamically based on the weather conditions.</p>
+            <div class="dp-tech-stack">
+              <h4>Technologies Used:</h4>
+              <ul>
+                <li data-tooltip="React"><img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React"></li>
+                <li data-tooltip="Tailwind CSS">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
+                    alt="Tailwind CSS">
+                </li>
+                <li data-tooltip="Axios"><img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/axios/axios-plain.svg" alt="Axios"></li>
+              </ul>
+            </div>
+          </div>
+          <footer class="dp-card-footer">
+            <a href="https://fahimmoon.github.io/weathernow--app/" class="dp-action-link devpost" target="_blank"
+              rel="noopener noreferrer" title="View Live Demo">View Demo</a>
+            <a href="https://github.com/fahimmoon/weathernow--app" class="dp-action-link code" target="_blank"
+              rel="noopener noreferrer" title="View Source Code">View Code</a>
+          </footer>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS SECTION -->
+
+
+  <section class="skills" id="skills">
+    <div class="skills__container">
+      <div class="skills__header">
+        <h2 class="skills__title">My Technical Toolbox</h2>
+        <p class="skills__subtitle">A snapshot of the languages, frameworks, and tools I use to bring ideas to life.</p>
+      </div>
+
+      <div class="skills__grid">
+        <!-- Frontend Skills -->
+        <div class="skills-card">
+          <h3 class="skills-card__title">
+            <i class="fa-solid fa-code"></i>
+            Frontend
+          </h3>
+          <div class="skills-card__list">
+            <div class="skill-item" data-level="95">
+              <div class="skill-item__info">
+                <span class="skill-item__details"><img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"
+                    class="skill-item__icon" alt="HTML5 icon"><span class="skill-item__name">HTML5 & CSS3</span></span>
+                <span class="skill-item__level">95%</span>
+              </div>
+              <div class="skill-item__track">
+                <div class="skill-item__fill"></div>
+              </div>
+            </div>
+            <div class="skill-item" data-level="65">
+              <div class="skill-item__info">
+                <span class="skill-item__details"><img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
+                    class="skill-item__icon" alt="JavaScript icon"><span
+                    class="skill-item__name">JavaScript</span></span>
+                <span class="skill-item__level">65%</span>
+              </div>
+              <div class="skill-item__track">
+                <div class="skill-item__fill"></div>
+              </div>
+            </div>
+            <div class="skill-item" data-level="85">
+              <div class="skill-item__info">
+                <span class="skill-item__details"><img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
+                    class="skill-item__icon" alt="React icon"><span class="skill-item__name">React &
+                    Next.js</span></span>
+                <span class="skill-item__level">85%</span>
+              </div>
+              <div class="skill-item__track">
+                <div class="skill-item__fill"></div>
+              </div>
+            </div>
+            <div class="skill-item" data-level="80">
+              <div class="skill-item__info">
+                <span class="skill-item__details"><img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
+                    class="skill-item__icon" alt="Tailwind icon"><span class="skill-item__name">Tailwind
+                    CSS</span></span>
+                <span class="skill-item__level">80%</span>
+              </div>
+              <div class="skill-item__track">
+                <div class="skill-item__fill"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Backend & Database Skills (Refactored) -->
+        <div class="skills-card">
+          <h3 class="skills-card__title">
+            <i class="fa-solid fa-database"></i>
+            Backend & Database
+          </h3>
+          <div class="skills-card__list">
+            <div class="skill-item" data-level="70">
+              <div class="skill-item__info">
+                <span class="skill-item__details">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg"
+                    class="skill-item__icon" alt="Node.js icon">
+                  <span class="skill-item__name">Node.js</span>
+                </span>
+                <span class="skill-item__level">70%</span>
+              </div>
+              <div class="skill-item__track">
+                <div class="skill-item__fill"></div>
+              </div>
+            </div>
+            <div class="skill-item" data-level="75">
+              <div class="skill-item__info">
+                <span class="skill-item__details">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original-wordmark.svg"
+                    class="skill-item__icon" alt="MongoDB icon">
+                  <span class="skill-item__name">MongoDB</span>
+                </span>
+                <span class="skill-item__level">75%</span>
+              </div>
+              <div class="skill-item__track">
+                <div class="skill-item__fill"></div>
+              </div>
+            </div>
+            <div class="skill-item" data-level="70">
+              <div class="skill-item__info">
+                <span class="skill-item__details">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg"
+                    class="skill-item__icon" alt="PostgreSQL icon">
+                  <span class="skill-item__name">SQL ( MySQL)</span>
+                </span>
+                <span class="skill-item__level">70%</span>
+              </div>
+              <div class="skill-item__track">
+                <div class="skill-item__fill"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Tools & Methodology (Refactored) -->
+        <div class="skills-card">
+          <h3 class="skills-card__title">
+            <i class="fa-solid fa-screwdriver-wrench"></i>
+            Tools & Methodology
+          </h3>
+          <div class="skills-card__list">
+            <div class="skill-item" data-level="85">
+              <div class="skill-item__info">
+                <span class="skill-item__details">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg"
+                    class="skill-item__icon" alt="Git icon">
+                  <span class="skill-item__name">Git & GitHub</span>
+                </span>
+                <span class="skill-item__level">85%</span>
+              </div>
+              <div class="skill-item__track">
+                <div class="skill-item__fill"></div>
+              </div>
+            </div>
+            <div class="skill-item" data-level="85">
+              <div class="skill-item__info">
+                <span class="skill-item__details">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg"
+                    class="skill-item__icon" alt="Figma icon">
+                  <span class="skill-item__name">Figma & UI/UX Design</span>
+                </span>
+                <span class="skill-item__level">85%</span>
+              </div>
+              <div class="skill-item__track">
+                <div class="skill-item__fill"></div>
+              </div>
+            </div>
+            <div class="skill-item" data-level="50">
+              <div class="skill-item__info">
+                <span class="skill-item__details">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg"
+                    class="skill-item__icon" alt="Docker icon">
+                  <span class="skill-item__name">Docker</span>
+                </span>
+                <span class="skill-item__level">50%</span>
+              </div>
+              <div class="skill-item__track">
+                <div class="skill-item__fill"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+
+  <section class="contact" id="contact">
+    <div class="contact__container">
+      <div class="contact__info reveal">
+        <span class="contact__label">Let's Connect</span>
+        <h2 class="contact__title">Get In Touch</h2>
+        <p class="contact__desc">
+          Have a project in mind or just want to say hello? I'd love to hear from you. Reach out and I’ll get back to
+          you soon.
+        </p>
+        <div class="contact__details">
+          <a href="mailto:moonhunzai83@gmail.com" class="contact__detail-item">
+            <i class="fa-solid fa-envelope"></i>
+            <span>moonhunzai83@gmail.com</span>
+          </a>
+          <a href="tel:+923329123884" class="contact__detail-item">
+            <i class="fa-solid fa-phone"></i>
+            <span>+923 32912 3884</span>
+          </a>
+        </div>
+      </div>
+
+      <form class="contact__form reveal" autocomplete="off">
+        <div class="form-group">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" name="name" placeholder="Your Name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="you@example.com" required>
+        </div>
+        <div class="form-group full-width">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4" placeholder="Hi Fahim, let's talk about..."
+            required></textarea>
+        </div>
+        <button type="submit" class="contact__submit">
+          Send Message <i class="fa-solid fa-paper-plane"></i>
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER SECTION -->
+  <footer class="site-footer">
+    <div class="footer-content">
+      <div class="footer-brand">
+        <span class="footer-logo">فہیم احمد</span>
+        <p class="footer-desc">
+          Building modern web experiences with passion, creativity, and a love for learning.
+        </p>
+        <div class="footer-social">
+
+          <a href="https://github.com/fahimmoon" aria-label="GitHub" title="GitHub" target="_blank"
+            rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+          </a>
+
+
+          <a href="https://www.linkedin.com/in/fahim-ahmad-589a81246" aria-label="LinkedIn" title="LinkedIn"
+            target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+
+
+          <a href="https://fahimmoon.github.io/Portfolio/" aria-label="Portfolio" title="Portfolio" target="_blank"
+            rel="noopener noreferrer">
+            <i class="fa-solid fa-globe"></i>
+          </a>
+        </div>
+      </div>
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h4>Resources</h4>
+        <ul>
+          <li><a href="#">Resume</a></li>
+          <li><a href="https://github.com/fahimmoon" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/fahim-ahmad-589a81246" target="_blank"
+              rel="noopener noreferrer">LinkedIn</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h4>Contact</h4>
+        <p>Email: <a href="mailto:moonhunzai83@gmail.com">moonhunzai83@gmail.com</a></p>
+        <p>Phone: <a href="tel:+92332912388">+923 32912 3884</a></p>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- CHATBOT ASSISTANT -->
+  <div class="chatbot-container">
+        
+        <button class="chatbot-toggle" aria-label="Open Chat Assistant">
+            <div class="unread-badge">1</div> 
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="icon-chat">
+                <path d="M4.804 21.644a6.707 6.707 0 01-.304.106A6.75 6.75 0 01-2.25 9V9A6.75 6.75 0 014.5 2.25h15A6.75 6.75 0 0126.25 9v6.75a6.75 6.75 0 01-6.75 6.75h-9.356a.75.75 0 01-.53-.22l-4.146-4.146a.75.75 0 00-1.06 0l-.22.22a.75.75 0 000 1.06l4.146 4.146a.75.75 0 01.22.53v.356z" />
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="icon-close">
+                <path fill-rule="evenodd" d="M5.47 5.47a.75.75 0 011.06 0L12 10.94l5.47-5.47a.75.75 0 111.06 1.06L13.06 12l5.47 5.47a.75.75 0 11-1.06 1.06L12 13.06l-5.47 5.47a.75.75 0 01-1.06-1.06L10.94 12 5.47 6.53a.75.75 0 010-1.06z" clip-rule="evenodd" />
+            </svg>
+        </button>
+
+      
+        <div class="chatbot-window">
+            <div class="chatbot-header">
+                <div class="chatbot-avatar">
+  <img src="/images/icons/chatboticon.svg" alt="Fahim's AI Assistant Avatar">
+</div>
+                <div class="chatbot-info">
+                    <span class="chatbot-name">Fahim's Assistant</span>
+                    <span class="chatbot-status">Online</span>
+                </div>
+                <div class="chatbot-header-actions">
+                    <button class="chatbot-refresh" aria-label="Start Over">
+                        <i class="fa-solid fa-arrows-rotate"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="chatbot-messages-container">
+                
+            </div>
+            <form class="chatbot-input-form">
+                <input type="text" class="chatbot-input" placeholder="Ask about skills, projects..." autocomplete="off" required>
+                <button type="submit" class="chatbot-send-button" aria-label="Send Message">
+                    <i class="fa-solid fa-paper-plane"></i>
+                </button>
+            </form>
+        </div>
+    </div>
+  <!-- SCRIPTS -->
+  <script src="js/navbar.js"></script>
+  <script src="js/about.js"></script>
+  <script src="js/chatbot.js"></script>
+  <script src="js/skills.js"></script>
+  <script src="js/project.js"></script>
+  <script src="js/devpost.js"></script>
+  <script src="js/contact.js"></script>
+  <script src="js/footer.js"></script>
+
+
+</body>
+
+</html>
