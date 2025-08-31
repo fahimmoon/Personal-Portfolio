@@ -1,6 +1,6 @@
 # Personal-Portfolio
 
-This is a modern, responsive personal portfolio website for Fahim Ahmad. It showcases projects, skills, education, certificates, and contact information, with a clean UI and smooth navigation.
+This is a modern, responsive personal portfolio website by Fahim Ahmad. It showcases projects, skills, education, certificates, and contact information, with a clean UI and smooth navigation.
 
 ## 🚀 Live Demo
 
